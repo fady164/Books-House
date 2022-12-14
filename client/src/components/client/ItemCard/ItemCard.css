@@ -1,0 +1,59 @@
+.textlink {
+   text-decoration: none;
+   color: black;
+}
+
+.textlink:hover {
+   text-decoration: none;
+   color: var(--secondary);
+}
+.imgparentt {
+   position: relative;
+   overflow: hidden;
+}
+.imgparentt img {
+   height: 50vh;
+   width: 100%;
+   /* object-fit: contain; */
+}
+.imgparentt:hover .blackBG {
+   display: block;
+}
+.blackBG {
+   z-index: 0;
+   top: 0;
+   position: absolute;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   width: 100%;
+   overflow: hidden;
+   display: none;
+}
+
+.textitem {
+   color: #555555;
+}
+
+.btnsCont {
+   z-index: 1;
+   position: absolute;
+   width: 100px;
+   height: 700px;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.itemBtns:hover {
+   background-color: var(--secondary);
+}
+.authorName {
+   color: var(--secondary);
+   /* cursor: pointer; */
+}
+.authorName:hover {
+   text-decoration: underline;
+}

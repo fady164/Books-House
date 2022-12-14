@@ -1,0 +1,13 @@
+.setStyle {
+   height: 90vh;
+   font-size: 9rem;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.setStyle h1 {
+   font-size: 5rem;
+   font-weight: bolder;
+}

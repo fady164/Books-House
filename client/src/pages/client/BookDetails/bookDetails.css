@@ -1,0 +1,8 @@
+.coverImage {
+   height: 55vh;
+   width: 100%;
+   object-fit: contain;
+}
+.smallText {
+   font-size: small;
+}

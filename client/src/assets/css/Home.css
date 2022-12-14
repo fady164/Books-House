@@ -1,0 +1,202 @@
+.hero__section {
+   background: white;
+   position: relative;
+}
+
+.hero__content h2 {
+   color: var(--primary-color);
+   font-size: 2.5rem;
+   font-weight: 600;
+   margin: 20px 0px;
+}
+
+.hero__content p {
+   color: var(--primary-color);
+   line-height: 28px;
+}
+
+.hero__section p:nth-child(1) {
+   font-weight: 500;
+}
+
+.hero__content {
+   width: 100%;
+   background: transparent;
+}
+
+.hero__section .swiper-button-next,
+.hero__section .swiper-button-prev {
+   color: transparent !important;
+}
+.hero__img {
+   height: 81vh;
+}
+.hero__img img {
+   width: 100%;
+}
+
+.swiper__card {
+   border-radius: 12px;
+}
+.testimonial__warning {
+   background-color: rgba(255, 193, 7, 0.3);
+   color: black;
+}
+.testimonial__primary {
+   background-color: rgba(13, 110, 253, 0.6);
+   color: white;
+}
+
+.buy__btn {
+   border: none;
+   outline: none;
+   padding: 15px 28px;
+   border-radius: 5px;
+   font-size: 1rem;
+   margin-top: 40px;
+   top: 73%;
+   left: 42%;
+   font-weight: 600;
+   margin: 0px 0px 3px 5px;
+}
+.buy__btn a:hover {
+   color: black;
+   border-radius: 5px;
+}
+
+/* SVG CSS*/
+.custom-shape-divider-top-1668530886 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1668530886 svg {
+   position: relative;
+   display: block;
+   width: calc(100% + 1.3px);
+   height: 48px;
+}
+
+.custom-shape-divider-top-1668530886 .shape-fill {
+   fill: #fff;
+}
+.custom-shape-divider-bottom-1668531089 {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1668531089 svg {
+   position: relative;
+   display: block;
+   width: calc(100% + 1.3px);
+   height: 48px;
+}
+
+.custom-shape-divider-bottom-1668531089 .shape-fill {
+   fill: #fff;
+}
+
+/* About */
+.homeAbout__img {
+   object-fit: cover;
+}
+/* Packages cards */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+.packages__list {
+   justify-content: space-around;
+   font-family: "DM Sans", sans-serif;
+   font-weight: normal;
+}
+.package__item {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.package__details {
+   border: 0.5px solid #ececec;
+   border-radius: 20px;
+   line-height: 1.8;
+   width: 75%;
+}
+.package__details:hover {
+   border: none;
+   position: relative;
+   box-sizing: border-box;
+   box-shadow: rgb(38 78 118 / 10%) 0px 4px 25px;
+}
+.package__header {
+   line-height: 1.8;
+   overflow: hidden;
+   position: relative;
+}
+.demo-bg {
+   opacity: 0.4;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: auto;
+}
+.demo-content {
+   position: relative;
+   padding: 16%;
+}
+.package__header img {
+   width: 100%;
+   height: 100%;
+}
+ul.package__features {
+   line-height: 1.8;
+   list-style-type: none;
+}
+ul.package__features li {
+   margin: 0px 0px 15px;
+}
+ul.package__features button {
+   padding: 15px 30px;
+   margin: 2px 0px 0px -1px;
+   width: 35px;
+   /* display: inline-flex; */
+}
+.package__price .price {
+   margin: 5px;
+   font-size: 26px !important;
+   font-weight: bold;
+}
+.package__control button {
+   padding: 15px 30px;
+   line-height: 1.2;
+}
+
+div.authorHeader {
+   margin-top: 138px;
+   margin-bottom: 125px;
+}
+
+.fames__swiper {
+   border-radius: 70px;
+}
+
+/* Banner */
+
+.banner__img {
+   position: absolute;
+}
+.banner__img img {
+   height: 95vh;
+}
+.banner__swiper {
+   position: relative;
+   padding-top: 9%;
+}

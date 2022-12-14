@@ -1,0 +1,16 @@
+.breadcrumb-Container {
+   height: 35vh;
+   background-color: #f4f5f7;
+   width: 100%;
+}
+.link-bread {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+}
+
+.link-bread a:visited {
+   text-decoration: none;
+}
+.link-bread:hover {
+   color: rgb(203, 203, 55);
+}

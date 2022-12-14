@@ -1,0 +1,110 @@
+/* For displaying the form in a box with light outline */
+div.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 48px;
+  align-items: center;
+  text-align: center;
+}
+
+div.centeredElement {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #e6e2e2;
+  border-radius: 20px;
+}
+div.auth {
+  width: 65%;
+}
+/* For curved buttons */
+button.btn {
+  border-radius: 20px;
+}
+/* SignUp button */
+button.signUp {
+  width: 60%;
+}
+/* For writting a word inside a horizontal line */
+.divider {
+  width: 100%;
+  text-align: center;
+}
+.invalid {
+  border: 1px solid red;
+}
+/* .divider.acc {
+  margin-top: 90px;
+} */
+.divider hr {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.divider a {
+  text-decoration: none;
+  color: gray;
+  font-size: 12px;
+}
+.divider.or hr {
+  width: 45%;
+}
+
+.divider.acc hr {
+  width: 15%;
+}
+.hrLeft {
+  float: left;
+}
+.hrRight {
+  float: right;
+}
+/* user icon */
+#basic-addon1 {
+  background-color: white;
+  border-right: none;
+}
+TextField:focus,
+input:focus {
+  outline: none;
+}
+/* google button design */
+svg.googleSvg {
+  left: 0%;
+  top: 0%;
+  background-color: white;
+  width: 11%;
+  padding: 5px;
+  height: 103%;
+  float: left;
+  border-radius: 20px;
+  position: absolute;
+}
+
+button.google {
+  padding-left: 0px;
+
+  position: relative;
+}
+button.google span {
+  padding: 0.75rem 0.375rem;
+  text-align: center;
+  width: 95%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* To decrease the padding around the main div */
+  div.main {
+    padding: 20px !important;
+  }
+  /* To remove the horizontal line */
+  .divider.or hr {
+    width: 0%;
+  }
+
+  .divider.acc hr {
+    width: 0%;
+  }
+}

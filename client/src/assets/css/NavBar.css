@@ -1,0 +1,153 @@
+.small__screen {
+   display: none;
+   padding: 0px;
+}
+
+.large__screen {
+   display: block;
+}
+
+.header {
+   width: 100%;
+   height: 70px;
+   line-height: 70px;
+}
+
+.nav__wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   column-gap: 8px;
+}
+
+.logo img {
+   width: 50px;
+    height: 50px;
+}
+
+.logo h1 {
+   font-size: 1.2rem;
+   font-weight: 700;
+   color: black;
+}
+
+.menu {
+   display: flex;
+   align-items: center;
+   column-gap: 2.7rem;
+   margin-bottom: 0;
+}
+
+.nav__item a {
+   /* color: black; */
+   font-weight: 500;
+   cursor: pointer;
+   text-decoration: none;
+   font-size: 15px;
+}
+
+.nav__item {
+   list-style-type: none;
+}
+.nav__active{
+   color:var(--secondary);
+   font-weight: 700 !important;
+}
+.nav__icons {
+   display: flex;
+   align-items: center;
+   column-gap: 1.2rem;
+}
+
+.nav__icons span svg,
+.nav__icons span svg {
+   font-size: 1.4rem;
+   color: black;
+}
+
+.cart__icon,
+.fav__icon {
+   position: relative;
+   cursor: pointer;
+}
+
+.__badge {
+   position: absolute;
+   top: 57%;
+   right: -56%;
+   width: 15px;
+   height: 15px;
+   content: "";
+   background: var(--secondary);
+   color: black;
+   border-radius: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 0.7rem;
+   font-weight: 600;
+   z-index: 10;
+}
+
+.nav__icons span img {
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+}
+
+.dropdown button:active{
+   border:none;
+   outline:none
+}
+.dropDown__Toggle:after {
+   content: none;
+}
+
+.sticky__header {
+   width: 100%;
+   height: 70px;
+   line-height: 70px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 9;
+}
+.header-bg {
+   background-color: white;
+   box-shadow: 3px 3px 8px -3px #ddd;
+}
+.dropDown__user{
+   padding-top:0px;
+   padding-bottom:0px
+}
+.dropDown__item:focus{
+   background-color:gray;
+}
+.dropDown__item{
+padding-top:0px;
+padding-bottom:0px
+}
+  
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+   .small__screen {
+      display: block;
+      /* position:sticky; */
+   }
+
+   .large__screen {
+      display: none;
+   }
+}

@@ -1,0 +1,63 @@
+/* div.row.pricing__cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.single-price {
+  border: 1px solid rgba(255, 255, 255, .21);
+  margin: 2px;
+  background-color: var(--primary);
+  border-radius: 16px;
+}
+
+
+
+.top-part h1 {
+  width: 140px;
+  height: 140px;
+  background-color: var(--primary);
+  border-radius: 100px;
+  align-items: center;
+  display: grid;
+  border: 30px solid rgba(132, 144, 255, .1);
+  text-align: center;
+}
+
+.single-price:hover .bottom-part a {
+  display: block;
+}
+
+.single-price:hover h1 {
+  color: black;
+  background: transparent;
+  border: 30px solid rgba(255, 255, 255, .21);
+
+}
+
+.single-price:hover h1.price {
+  display: none
+}
+
+.price-btn {
+  display: none;
+}
+
+.single-price:hover .price-btn {
+  display: block;
+  background-color: var(--secondary);
+  color: black;
+  border-radius: 16px;
+
+}
+
+.book__icon {
+  display: flex;
+  justify-content: center;
+}
+
+.book__icon svg {
+  width: 35%;
+  height: 35%;
+} */

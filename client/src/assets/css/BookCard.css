@@ -1,0 +1,15 @@
+.cardItem {
+   height: 100%;
+}
+.cardImg img {
+   object-fit: cover;
+   height: 50vh;
+   width: 100%;
+}
+
+.bookTitle {
+   cursor: pointer;
+}
+.bookTitle:hover {
+   color: crimson;
+}

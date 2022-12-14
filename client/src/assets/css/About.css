@@ -1,0 +1,51 @@
+.about__title {
+  height: 200px;
+  background-color: var(--primary);
+}
+.about__img {
+  height: 593px;
+  object-fit: cover;
+}
+.about__img img {
+  height: 75%;
+  width: 75%;
+}
+ul.about__list li {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutimgParent {
+  overflow: hidden;
+}
+
+.about__img:hover {
+  transform: scale(1.05);
+}
+
+/* about Team  */
+.name {
+  font-weight: bold;
+}
+
+.work {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.about span {
+  font-size: 13px;
+}
+
+.v-profile {
+  color: #123194;
+  cursor: pointer;
+}
+
+.box {
+  -webkit-box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72);
+  -moz-box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72);
+  box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72);
+}

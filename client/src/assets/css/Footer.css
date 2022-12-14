@@ -1,0 +1,56 @@
+.footer {
+   position: relative;
+   padding-top: 60px;
+   padding-bottom: 30px;
+   /* background-color: var(--primary); */
+}
+
+.footer__text {
+   line-height: 30px;
+   /* color: black; */
+}
+
+.quick__links-title {
+   margin-bottom: 30px;
+   /* font-size: 1.1rem; */
+}
+
+.footer__contact li span {
+   font-size: 1.2rem;
+}
+
+.footer__contact li p {
+   font-size: 0.9rem;
+}
+
+.footer__copyright {
+   font-size: 0.9rem;
+   margin-top: 50px;
+   text-align: center;
+}
+
+/* .book__wave {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.book__wave svg {
+   position: relative;
+   display: block;
+   width: calc(100% + 1.3px);
+   height: 69px;
+}
+
+.book__wave .shape-fill {
+   fill: #ffff;
+} */
+
+
+
+
+
